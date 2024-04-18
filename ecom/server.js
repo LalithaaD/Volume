@@ -13,7 +13,6 @@ app.use(express.json());
 const url = 'mongodb+srv://ecom:8MEXOYYvHAf6ULXy@cluster0.a5qz4w7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
 const client = MongoClient.connect(url, { useUnifiedTopology: true }, (err, client) => {
   console.log('Connected to Database');
-  
 });
 
 //Endpoint to get all products
@@ -32,12 +31,11 @@ app.post('/order', async (req, res) => {
 });
 
 
-//Define /login endpoint
+//Define login endpoint
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
   const db = (await client).db('sample_mflix'); 
   const user = await db.collection('users').findOne({ email });
-
   if (user) {
     if (user.password === password) {
       res.json({ success: true, message: 'Login successful', email: user.email, name: user.name, studentNumber: user.studentNumber, shippingAddress: user.shippingAddress});
