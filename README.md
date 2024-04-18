@@ -1,5 +1,5 @@
 **Introduction:**
-Volume, an e-commerce application is built with a React frontend, Node.js backend using Express framework, and MongoDB for database management.
+Volume, an e-commerce website is built with a React frontend, Node.js backend using Express framework, and MongoDB for database management.
 The application features three main collections in the database: users, products, and orders. 
 It provides APIs for user management, product management, order management, and user authentication/login. 
 The backend runs on port 3001 while the frontend runs on port 3000. 
