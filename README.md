@@ -16,7 +16,7 @@ Users can log in using their credentials.
 Upon login, users can edit their name, student number, and address. However, email address remains immutable.
 **Product Management:**
 The application provides APIs for managing products, likely including CRUD operations (Create, Read, Update, Delete).
-Users can browse and search for products.
+Users can browse products.
 **Order Management:**
 Users can place orders for products.
 The application manages order tracking, presumably with APIs to create, read, update, and delete orders.
