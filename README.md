@@ -29,3 +29,13 @@ An attempted implementation for credit validation at the cart checkout exists bu
 **Conclusion:**
 The e-commerce application demonstrates a robust architecture with separate frontend and backend components, leveraging modern technologies such as React, Node.js, Express, and MongoDB. 
 While core functionalities such as user authentication, product management, and order tracking are implemented, challenges persist with credit validation at the cart checkout, necessitating further investigation and resolution.
+
+**To execute the application, follow these commands:**
+**Frontend Setup:**
+cd wt-assignment
+npm install       # Install dependencies
+npm start         # Start the frontend server on port 3000
+**Backend Setup:**
+cd ecom
+npm install       # Install dependencies
+npm start         # Start the backend server on port 3001
