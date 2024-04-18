@@ -56,7 +56,7 @@ app.post('/updateUser', async (req, res) => {
   res.json({ success: true, message: 'User details updated successfully', data: result });
 });
 
-//Start the server
+//Start the server-3000
 const PORT = 3001; 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
