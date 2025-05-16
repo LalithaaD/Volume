@@ -1,11 +1,11 @@
-**Introduction:**
+# Volume
 Volume, an e-commerce website is built with a React frontend, Node.js backend using Express framework, and MongoDB for database management.
 The application features three main collections in the database: users, products, and orders. 
 It provides APIs for user management, product management, order management, and user authentication/login. 
 The backend runs on port 3001 while the frontend runs on port 3000. 
 The primary functionality includes user authentication, product browsing, ordering, and user profile management.
 
-**File Structure:**
+# File Structure:
 
 wt-assignment: Contains the frontend codebase, presumably built with React.
 
@@ -13,7 +13,7 @@ ecom: Contains backend codebase for connectivity with MongoDB and handling API r
 
 db files: Holds the reports of the schemas defined for the MongoDB collections.
 
-**Functionality:**
+# Functionality:
 
 User Authentication/Login:
 Users can log in using their credentials.
@@ -33,24 +33,26 @@ An attempted implementation for credit validation at the cart checkout exists bu
 
 
 
-**Challenges:**
+# Challenges:
 Credit Validation: Integration at checkout encountered operational issues.
 
 
-**Conclusion:**
+# Conclusion:
 The e-commerce application demonstrates a robust architecture with separate frontend and backend components, leveraging modern technologies such as React, Node.js, Express, and MongoDB. 
 While core functionalities such as user authentication, product management, and order tracking are implemented, challenges persist with credit validation at the cart checkout, necessitating further investigation and resolution.
 
 
-**To execute the application, follow these commands:**
+# To execute the application, follow these commands:
 
-**Clone the Repository:**
+# Clone the Repository:
+
 git clone https://github.com/LalithaaD/WT_FinalProject.git
 
 cd WT_FinalProject
 
 
-**Frontend Setup:**
+# Frontend Setup:
+
 cd wt-assignment
 
 npm install       # To Install dependencies
@@ -58,7 +60,8 @@ npm install       # To Install dependencies
 npm start         # To Start the frontend server 
 
 
-**Backend Setup:**
+# Backend Setup:
+
 cd ecom
 
 npm install       # To Install dependencies
